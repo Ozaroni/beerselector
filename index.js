@@ -1,7 +1,7 @@
 const path = require('path')
 const express = require('express')
 const app = express()
-const port = 5000
+const port = process.env.PORT || 5000
 
 app.get('/beers', (req, res) => {
   res.send([
@@ -21,6 +21,7 @@ app.get('/beers', (req, res) => {
 })
 
 app.use(express.static(path.join(__dirname, 'client/build')))
+
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname + '/client/build/index.html'))
 })
