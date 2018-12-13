@@ -14,7 +14,7 @@
     "eject": "react-scripts eject",
     "heroku-postbuild": "cd spinner-api && yarn"
   },
-  "proxy": "http://localhost:3000",
+  "proxy": "https://beerselector.herokuapp.com/",
   "homepage": "https://beerselector.herokuapp.com/",
   "eslintConfig": {
     "extends": "react-app"
