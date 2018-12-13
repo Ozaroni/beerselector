@@ -13,8 +13,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:8080",
-  "homepage": "https://pm.tracorp.com/Project/expTest",
+  "homepage": "https://beerselector.herokuapp.com/",
   "eslintConfig": {
     "extends": "react-app"
   },
