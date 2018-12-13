@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo:700');
+
+.App {
+  /* Didn't have access to RobotoSlab, so I used Aleo as a fallback */
+  font-family: "RobotoSlab-Bold", "Aleo";
+  font-size: 16px,
+}
